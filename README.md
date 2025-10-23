@@ -27,22 +27,19 @@ This project leverages big data technologies to analyze millions of traffic acci
 - **Plotly**: Advanced data visualizations
 - **D3.js**: Custom data-driven graphics
 
-### Version Control
-- **Git LFS**: Large file storage for datasets
-
 ## 📁 Project Structure
 
 ```
 traffic-accident-hotspot/
 ├── data/
-│   ├── US_Accidents_March23.csv         
+│   ├── US_Accidents_March23.csv             # download from link
 ├── scripts/
 │   ├── map_display.py                     
-├── accident_map.html               # after running main.py                
+├── accident_map.html                        # after running main.py                
 ├── requirements.txt                       
 ├── .gitattributes                         
 ├── .gitignore
-├── main.py                                # Main application
+├── main.py                                  # Main application
 └── README.md
 ```
 
@@ -50,41 +47,18 @@ traffic-accident-hotspot/
 
 ### Prerequisites
 - Python 3.8+
-- Git with Git LFS installed
 - 8GB+ RAM recommended
 
 ### Installation
 
-#### 1. Install Git LFS
-**Windows:**
+#### 1. Clone Repository
 ```bash
-# Download from https://git-lfs.github.com/
-# Run installer and then:
-git lfs install
-```
-
-**Linux:**
-```bash
-sudo apt-get install git-lfs
-git lfs install
-```
-
-**Mac:**
-```bash
-brew install git-lfs
-git lfs install
-```
-
-#### 2. Clone Repository
-```bash
-git clone https://github.com/YOUR_USERNAME/traffic-accident-hotspot.git
+git clone https://github.com/sneh-a-15/traffic-accident-hotspot.git
 cd traffic-accident-hotspot
 
-# Pull LFS files
-git lfs pull
 ```
 
-#### 3. Create Virtual Environment
+#### 2. Create Virtual Environment
 ```bash
 # Windows
 python -m venv venv
@@ -95,24 +69,24 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-#### 4. Install Dependencies
+#### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-#### 5. Run Application
+#### 4. Run Application
 ```bash
 python main.py
 ```
 
-#### 6. Open Visualizations
-- Interactive Map: Open `visualizations/accident_map.html`
+#### 5. Open Visualizations
+- Interactive Map: Open `accident_map.html`
 
 ## 📊 Dataset Information
 
-**Source**: [US Accidents (2016-2023) - Kaggle](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents)
+**Source**: [US Accidents (2016-2023) - Kaggle](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents)      # Download dataset from this link
 
-**Size**: ~3 million records, ~2GB
+**Size**: ~7 million records, ~3GB
 
 **Key Attributes**:
 - `ID`: Unique accident identifier
