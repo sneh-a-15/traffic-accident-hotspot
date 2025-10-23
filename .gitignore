@@ -21,7 +21,4 @@ ENV/
 *.swp
 .DS_Store
 
-# OS
-Thumbs.db
-
-# Note: CSV files are tracked by Git LFS (see .gitattributes)
+data/
