@@ -2,3 +2,10 @@ pandas
 folium
 plotly
 geopandas
+matplotlib
+scikit-learn
+seaborn
+streamlit
+streamlit-folium
+scipy
+geopy
